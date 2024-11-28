@@ -1,0 +1,8 @@
+Supplier: Bulstat: 123456789, Name: Dge, Location: pleven, Phone: 0123456789
+Materials:
+Type: material a, Thickness: 1.2, Diopter: 1, Material Name: metal
+Type: alum, Thickness: 2, Diopter: 4, Material Name: aluminium'
+Total Price: 240.5
+Supplier: Bulstat: 123456781, Name: dge, Location: plevennn, Phone: 9876543210
+Materials:
+Total Price: 0

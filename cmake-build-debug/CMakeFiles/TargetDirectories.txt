@@ -1,0 +1,3 @@
+/Users/djamistyle/Desktop/C++Project/Optika/cmake-build-debug/CMakeFiles/Optika.dir
+/Users/djamistyle/Desktop/C++Project/Optika/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/djamistyle/Desktop/C++Project/Optika/cmake-build-debug/CMakeFiles/rebuild_cache.dir

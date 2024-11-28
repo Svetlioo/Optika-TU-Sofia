@@ -1,0 +1,4 @@
+Bulstat: 123456789, Name: Dge, Location: pleven, Phone: 0123456789
+Bulstat: 123456781, Name: dge, Location: plevennn, Phone: 9876543210
+Bulstat: 987654320, Name: dgeto, Location: plevennn, Phone: 1234567890
+Bulstat: 123456123, Name: dge, Location: dge, Phone: 9876543210
