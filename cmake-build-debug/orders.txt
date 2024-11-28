@@ -6,3 +6,13 @@ Total Price: 240.5
 Supplier: Bulstat: 123456781, Name: dge, Location: plevennn, Phone: 9876543210
 Materials:
 Total Price: 0
+Supplier: Bulstat: 123456789, Name: Dge, Location: pleven, Phone: 0123456789
+Materials:
+Type: alum, Thickness: 3, Diopter: 2, Material Name: aluminium
+Type: jelqzo, Thickness: 2, Diopter: 1, Material Name: jelqzo
+Total Price: 500
+Supplier: Bulstat: 123456789, Name: Dge, Location: pleven, Phone: 0123456789
+Materials:
+Type: aluminium, Thickness: 3, Diopter: 0.1, Material Name: polycarbonate
+Type: glass, Thickness: 3, Diopter: 0.1, Material Name: high-index
+Total Price: 80.4

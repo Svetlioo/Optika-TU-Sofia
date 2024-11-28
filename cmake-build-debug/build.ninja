@@ -49,11 +49,53 @@ cmake_ninja_workdir = /Users/djamistyle/Desktop/C++Project/Optika/cmake-build-de
 
 build cmake_object_order_depends_target_Optika: phony || .
 
-build CMakeFiles/Optika.dir/main.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/main.cpp || cmake_object_order_depends_target_Optika
-  DEP_FILE = CMakeFiles/Optika.dir/main.cpp.o.d
+build CMakeFiles/Optika.dir/src/main.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/src/main.cpp || cmake_object_order_depends_target_Optika
+  DEP_FILE = CMakeFiles/Optika.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Optika.dir
-  OBJECT_FILE_DIR = CMakeFiles/Optika.dir
+  OBJECT_FILE_DIR = CMakeFiles/Optika.dir/src
+
+build CMakeFiles/Optika.dir/src/Supplier.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/src/Supplier.cpp || cmake_object_order_depends_target_Optika
+  DEP_FILE = CMakeFiles/Optika.dir/src/Supplier.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Optika.dir
+  OBJECT_FILE_DIR = CMakeFiles/Optika.dir/src
+
+build CMakeFiles/Optika.dir/src/OpticsMaterial.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/src/OpticsMaterial.cpp || cmake_object_order_depends_target_Optika
+  DEP_FILE = CMakeFiles/Optika.dir/src/OpticsMaterial.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Optika.dir
+  OBJECT_FILE_DIR = CMakeFiles/Optika.dir/src
+
+build CMakeFiles/Optika.dir/src/Order.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/src/Order.cpp || cmake_object_order_depends_target_Optika
+  DEP_FILE = CMakeFiles/Optika.dir/src/Order.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Optika.dir
+  OBJECT_FILE_DIR = CMakeFiles/Optika.dir/src
+
+build CMakeFiles/Optika.dir/src/SupplierFactory.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/src/SupplierFactory.cpp || cmake_object_order_depends_target_Optika
+  DEP_FILE = CMakeFiles/Optika.dir/src/SupplierFactory.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Optika.dir
+  OBJECT_FILE_DIR = CMakeFiles/Optika.dir/src
+
+build CMakeFiles/Optika.dir/src/OpticsMaterialFactory.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/src/OpticsMaterialFactory.cpp || cmake_object_order_depends_target_Optika
+  DEP_FILE = CMakeFiles/Optika.dir/src/OpticsMaterialFactory.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Optika.dir
+  OBJECT_FILE_DIR = CMakeFiles/Optika.dir/src
+
+build CMakeFiles/Optika.dir/src/OrderFactory.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/src/OrderFactory.cpp || cmake_object_order_depends_target_Optika
+  DEP_FILE = CMakeFiles/Optika.dir/src/OrderFactory.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Optika.dir
+  OBJECT_FILE_DIR = CMakeFiles/Optika.dir/src
+
+build CMakeFiles/Optika.dir/src/OpticsApp.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Users/djamistyle/Desktop/C++Project/Optika/src/OpticsApp.cpp || cmake_object_order_depends_target_Optika
+  DEP_FILE = CMakeFiles/Optika.dir/src/OpticsApp.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Optika.dir
+  OBJECT_FILE_DIR = CMakeFiles/Optika.dir/src
 
 
 # =============================================================================
@@ -63,7 +105,7 @@ build CMakeFiles/Optika.dir/main.cpp.o: CXX_COMPILER__Optika_unscanned_Debug /Us
 #############################################
 # Link the executable Optika
 
-build Optika: CXX_EXECUTABLE_LINKER__Optika_Debug CMakeFiles/Optika.dir/main.cpp.o
+build Optika: CXX_EXECUTABLE_LINKER__Optika_Debug CMakeFiles/Optika.dir/src/main.cpp.o CMakeFiles/Optika.dir/src/Supplier.cpp.o CMakeFiles/Optika.dir/src/OpticsMaterial.cpp.o CMakeFiles/Optika.dir/src/Order.cpp.o CMakeFiles/Optika.dir/src/SupplierFactory.cpp.o CMakeFiles/Optika.dir/src/OpticsMaterialFactory.cpp.o CMakeFiles/Optika.dir/src/OrderFactory.cpp.o CMakeFiles/Optika.dir/src/OpticsApp.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/Optika.dir
   POST_BUILD = :
